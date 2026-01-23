@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Tab</title>
+    <title>Chrome New Tab</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <!-- Top navigation (top-right in Chrome) -->
     <header>
       <nav>
         <a href="#">Gmail</a>
@@ -18,72 +17,48 @@
       </nav>
     </header>
 
-    <!-- Main centered content -->
-    <main>
+    <main class="page">
       <!-- Google logo -->
-      <h1>Google</h1>
+      <h1 class="logo">Google</h1>
 
-      <!-- Search area -->
-      <section aria-label="Search">
-        <form>
-          <span aria-hidden="true">🔍</span>
+      <!-- Search bar -->
+      <form class="search-bar">
+        <span class="icon icon-search">🔍</span>
 
-          <input
-            type="text"
-            placeholder="Search Google or type a URL"
-            aria-label="Search"
-          />
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Search Google or type a URL"
+        />
 
-          <button type="button" aria-label="Search by voice">🎤</button>
-          <button type="button" aria-label="Search by image">📷</button>
-          <button type="button" aria-label="AI Mode">AI Mode</button>
-        </form>
-      </section>
+        <span class="icon icon-mic">🎤</span>
+        <span class="icon icon-camera">📷</span>
+        <span class="icon icon-ai">✨ AI Mode</span>
+      </form>
 
       <!-- Shortcuts -->
-      <section aria-label="Shortcuts">
-        <ul>
-          <li>
-            <a href="#">
-              <div>G</div>
-              <span>Gmail</span>
-            </a>
-          </li>
+      <section class="shortcuts">
+        <div class="shortcut">
+          <div class="shortcut-icon">📧</div>
+          <span class="shortcut-label">Gmail</span>
+        </div>
 
-          <li>
-            <a href="#">
-              <div>Y</div>
-              <span>YouTube</span>
-            </a>
-          </li>
+        <div class="shortcut">
+          <div class="shortcut-icon">▶️</div>
+          <span class="shortcut-label">YouTube</span>
+        </div>
 
-          <li>
-            <a href="#">
-              <div>+</div>
-              <span>Add shortcut</span>
-            </a>
-          </li>
-        </ul>
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
       </section>
 
-      <!-- Continue tabs card -->
-      <section aria-label="Continue with these tabs">
-        <h2>Continue with these tabs</h2>
-
-        <ul>
-          <li>
-            <span aria-hidden="true">🔴</span>
-            <span>PixelCraft AI</span>
-            <small>• 1 hour ago</small>
-          </li>
-
-          <li>
-            <span aria-hidden="true">🟢</span>
-            <span>StackOverflow</span>
-            <small>• 3 hours ago</small>
-          </li>
-        </ul>
-      </section>
+      <!-- Continue tabs -->
+      <div class="continue-header">
+        <h2 class="continue-title">Continue with these tabs</h2>
+        <span class="continue-menu">⋮</span>
+      </div>
     </main>
   </body>
 </html>
