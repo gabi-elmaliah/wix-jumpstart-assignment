@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Tab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Top navigation (top-right in Chrome) -->
+    <header>
+      <nav>
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#" aria-label="Google apps">⋮⋮⋮</a>
+        <a href="#" aria-label="Profile">🙂</a>
+      </nav>
+    </header>
+
+    <!-- Main centered content -->
+    <main>
+      <!-- Google logo -->
+      <h1>Google</h1>
+
+      <!-- Search area -->
+      <section aria-label="Search">
+        <form>
+          <span aria-hidden="true">🔍</span>
+
+          <input
+            type="text"
+            placeholder="Search Google or type a URL"
+            aria-label="Search"
+          />
+
+          <button type="button" aria-label="Search by voice">🎤</button>
+          <button type="button" aria-label="Search by image">📷</button>
+          <button type="button" aria-label="AI Mode">AI Mode</button>
+        </form>
+      </section>
+
+      <!-- Shortcuts -->
+      <section aria-label="Shortcuts">
+        <ul>
+          <li>
+            <a href="#">
+              <div>G</div>
+              <span>Gmail</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div>Y</div>
+              <span>YouTube</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div>+</div>
+              <span>Add shortcut</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Continue tabs card -->
+      <section aria-label="Continue with these tabs">
+        <h2>Continue with these tabs</h2>
+
+        <ul>
+          <li>
+            <span aria-hidden="true">🔴</span>
+            <span>PixelCraft AI</span>
+            <small>• 1 hour ago</small>
+          </li>
+
+          <li>
+            <span aria-hidden="true">🟢</span>
+            <span>StackOverflow</span>
+            <small>• 3 hours ago</small>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
