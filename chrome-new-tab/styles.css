@@ -41,7 +41,7 @@ nav a {
 
   border-radius: 50%;
   padding: 2px;
-  overflow: hidden; /* THIS is the key */
+  overflow: hidden;
   background: #dbe2f6;
 
   background: conic-gradient(
@@ -139,7 +139,7 @@ nav a {
 }
 
 .shortcut:hover {
-  background-color: rgba(66, 133, 244, 0.12);
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .shortcut-icon {
@@ -150,12 +150,11 @@ nav a {
   justify-content: center;
   border-radius: 50%;
   background-color: #c7d2f5;
-
   font-size: 20px;
 }
 
 .shortcut-icon img {
-  width: 20px; /* smaller than circle */
+  width: 20px;
   height: 20px;
   object-fit: contain;
 }
@@ -187,7 +186,7 @@ nav a {
   color: #2b2f36;
 }
 .continue-menu {
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 1;
   color: #2b2f36;
   cursor: pointer;
@@ -196,7 +195,7 @@ nav a {
 }
 
 .continue-menu:hover {
-  background:  background-color: rgba(66, 133, 244, 0.12);
+  background-color: rgba(0, 0, 0, 0.06);
   cursor: pointer;
 }
 
@@ -220,7 +219,8 @@ nav a {
   border-radius: 8px;
 }
 .continue-item:hover {
-  background-color: rgba(66, 133, 244, 0.12);
+  background-color: rgba(0, 0, 0, 0.06);
+
   cursor: pointer;
 }
 
@@ -245,7 +245,7 @@ nav a {
 .tab-title {
   margin: 0;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   color: #202124;
   line-height: 1.4;
 }
@@ -260,6 +260,8 @@ nav a {
 .continue-footer {
   margin-top: 12px;
   margin-left: 12px;
+  font-weight: 550;
+  color: #202124;
 }
 
 .continue-footer:hover {
