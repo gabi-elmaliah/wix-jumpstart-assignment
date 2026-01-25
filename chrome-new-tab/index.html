@@ -8,20 +8,28 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#" aria-label="Google apps">⋮⋮⋮</a>
-        <a href="#" aria-label="Profile">🙂</a>
-      </nav>
-    </header>
+      <header>
+          <nav>
+            <a href="#" class="gmail">Gmail</a>
+            <a href="#" class="images">Images</a>
+            <img src="assets/icons/google-apps.png" alt="Menu" class="google-apps-icon" />
+            
+            <div class="profile-wrapper">
+              <img src="profile.jpeg" alt="Profile" />
+            </div>
+          </nav>
+      </header>
 
     <main class="page">
       <!-- Google logo -->
-      <h1 class="logo">Google</h1>
+      <div class="logo-container">
+        <img
+          class="google-logo"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+        />
+      </div>
 
-      <!-- Search bar -->
       <form class="search-bar">
         <span class="icon icon-search">🔍</span>
 
@@ -36,6 +44,7 @@
         <span class="icon icon-ai">✨ AI Mode</span>
       </form>
 
+    
       <!-- Shortcuts -->
       <section class="shortcuts">
         <div class="shortcut">
@@ -52,12 +61,97 @@
           <div class="shortcut-icon">＋</div>
           <span class="shortcut-label">Add shortcut</span>
         </div>
+
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
+
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
+
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
+
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
+
+        <div class="shortcut">
+          <div class="shortcut-icon">＋</div>
+          <span class="shortcut-label">Add shortcut</span>
+        </div>
       </section>
 
       <!-- Continue tabs -->
-      <div class="continue-header">
-        <h2 class="continue-title">Continue with these tabs</h2>
-        <span class="continue-menu">⋮</span>
+      <div class="continue-section">
+
+        <div class="continue-header">
+          <h2 class="continue-title">Continue with these tabs</h2>
+          <span class="continue-menu">⋮</span>
+        </div>
+
+        <div class="continue-content">
+          <ul class="continue-list">
+
+            <li class="continue-item">
+             <div class="img-container">
+               <img class="img"
+                src="https://www.google.com/favicon.ico"
+                alt="Google"
+              />
+             </div>
+
+              <div class="tab-text">
+                <p class="tab-title">shi shi - Google Search</p>
+                <p class="tab-meta">google.com · iPhone · You visited 16 hours ago</p>
+              </div>
+            </li>
+
+           <li class="continue-item">
+             <div class="img-container">
+               <img
+                class="img"
+                src="https://www.google.com/favicon.ico"
+                alt="Google"
+              />
+             </div>
+
+              <div class="tab-text">
+                <p class="tab-title">shi shi - Google Search</p>
+                <p class="tab-meta">google.com · iPhone · You visited 16 hours ago</p>
+              </div>
+            </li>
+
+           <li class="continue-item">
+             <div class="img-container">
+               <img
+                class="img"
+                src="https://www.google.com/favicon.ico"
+                alt="Google"
+              />
+             </div>
+
+              <div class="tab-text">
+                <p class="tab-title">shi shi - Google Search</p>
+                <p class="tab-meta">google.com · iPhone · You visited 16 hours ago</p>
+              </div>
+            </li>
+
+            <li>   
+              <div class="continue-footer">
+                <span class="see-more">See more</span>
+              </div>
+            </li> 
+            
+          </ul>
+        </div>
+
       </div>
     </main>
   </body>
