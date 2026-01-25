@@ -32,7 +32,7 @@ nav a {
   width: 272px;
   height: 92px;
   display: block;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .profile-wrapper {
@@ -41,9 +41,15 @@ nav a {
 
   border-radius: 50%;
   padding: 2px;
+  overflow: hidden; /* THIS is the key */
+  background: #dbe2f6;
 
-  /* Chrome-like colorful ring */
-  background: conic-gradient(#4285f4, #db4437, #f4b400, #0f9d58, #4285f4);
+  background: conic-gradient(
+    #4285f4 0deg 85deg,
+    #db4437 90deg 175deg,
+    #f4b400 180deg 265deg,
+    #0f9d58 270deg 355deg
+  );
   display: flex;
   align-items: center;
   justify-content: center;
